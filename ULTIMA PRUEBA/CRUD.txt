@@ -1,0 +1,26 @@
+__________________________________
+CRUD
+C == Create; Subir un archivo
+R == Read; Leer un archivo
+U == Update; Actualizar (Cambiar un archivo)
+D == Delete; Eliminar un archivo
+__________________________________
+
+Colecciones de datos:
+	Para registrar más de una variable no sirve crear una por cada iteración.
+Estructuración de datos -> Colecciones == Más de un dato, más de un registro.
+
+
+¿Cómo puedo acceder a los datos, cambiar datos, cómo se almacenan, cómo se estructuran los datos, cómo borrar datos?
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+Los tipos de datos que se manejan son muchos:
+- INT;BOOL;STRING;FLOAT;CHAR;
+- ARCHIVOS;IMAGENES;SONIDOS;ICONOS
+- etc...
+
+Colecciones Estáticas y dinámicas:
+- Colección dinámica-> *** Lista o diccionario *** -> Pueden ser modificados.
+- Colección Estáticas-> Tuplas -> Son inmutables, no modificables.
+
+	- Matrices -> lista con varias listas.
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --

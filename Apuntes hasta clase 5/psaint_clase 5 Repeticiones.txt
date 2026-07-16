@@ -1,0 +1,22 @@
+
+Do While -> Repetir
+For -> Para
+_________________________
+
+En PSAINT:: repetir-> Se ejecuta una sola vez
+En PSAINT:: Para-> Se id cuantas veces se repite
+__________________________
+
+Contadores -> +1, +1, +1...
+Acumulador -> EJ: AcumuladorVida=100
+
+__________________________
+
+"""PARA"""
+1) inicializar variable como entero "por ejemplo variable inicio"
+2) 
+
+Definir x como Entero;
+Para x = 1 Hasta 5 con Paso 1 Hacer
+	Escribir "rep numero: ", x;
+FinPara

@@ -1,0 +1,11 @@
+Agregar canción
+Mostrar canción
+Actualizar canción
+Eliminar canción
+Salir
+
+id de canción
+nombre ""
+Artista ""
+álbum ""
+Duracion

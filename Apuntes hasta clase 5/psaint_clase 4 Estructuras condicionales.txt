@@ -1,0 +1,12 @@
+Estructuras de decisión anidadas
+Condicional == True False
+
+Si xxx<xxx Entonces
+	Escribir xxxxxx;
+	Leer xxxx;
+
+
+
+"=" es para asignar un valor
+"==" es para comparación de valores
+"===" compara tipo y valor

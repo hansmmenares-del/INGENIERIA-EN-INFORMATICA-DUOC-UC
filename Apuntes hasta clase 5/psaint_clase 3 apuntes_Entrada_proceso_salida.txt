@@ -1,0 +1,25 @@
+Entrada: Información que se recibe
+
+Proceso: Operación
+
+Salida: Resultado final
+
+
+Diagrama de Flujo
+Manera simple de entender el flujo de trabajo
+	- No se necesita experiencia para poder leer el diagrama.
+	- Flechas de direcciones.
+	- circulo= inicio, rombo = decisión, cuadrado = proceso, // = Entrada/salida
+DFD == DIAGRAMAS
+PSAINT == ; termina cada linea de código
+
+
+PSAINT
+1) abrir programa
+2) diagrama al lado de los pies.
+-- Tipos de datos en psaint: Caracter, Entero, Real, Logico = verdadero o falso (1 y 0)--
+
+Definir variable, variable, variable como Entero
+
+
+

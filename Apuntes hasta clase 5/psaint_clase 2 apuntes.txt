@@ -1,0 +1,28 @@
+Inicio: 
+
+¿Qué es un algoritmo?
+
+Es una secuencia de pasos ordenados y finitas
+                        |
+                     Cada paso
+                     Es una acción
+DEBEN ESTAR EN ORDEN LOGICO
+
+
+Actividad practica
+reconocimiento hogar: Para hacerlo el robot debe desacoplarse, pararse, situarse en la cocina, fin del programa, camina a otra parte, reconoce living, finaliza, camina etc.
+
+Ducha sin agua caliente
+
+Word+PPT+Excel
+
+Office 365 -> Cuenta DuocUC 
+
+
+
+
+
+Actividad practica
+
+
+

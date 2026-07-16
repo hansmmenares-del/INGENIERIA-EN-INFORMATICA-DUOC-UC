@@ -1,0 +1,5 @@
+nombre=str(input("Ingresa tu nombre:\n"))
+nombre=nombre.replace("a","@")
+print(nombre)
+nombre=nombre.replace("n","x")
+print(nombre)
