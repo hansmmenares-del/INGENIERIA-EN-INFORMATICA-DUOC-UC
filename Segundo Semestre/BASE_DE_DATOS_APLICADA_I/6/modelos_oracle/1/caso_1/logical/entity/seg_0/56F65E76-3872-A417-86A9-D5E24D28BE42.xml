@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="56F65E76-3872-A417-86A9-D5E24D28BE42" name="NOTARIA">
+<createdBy>hans</createdBy>
+<createdTime>2026-09-03 15:49:50 UTC</createdTime>
+<ownerDesignName>caso_1</ownerDesignName>
+<engineerTo>
+<item key="29963789-9F30-73E8-158B-F4782BC5955E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idNotaria" id="78EC1629-3F86-8905-2972-5655F54D1E05">
+<createdBy>hans</createdBy>
+<createdTime>2026-09-03 16:32:31 UTC</createdTime>
+<ownerDesignName>caso_1</ownerDesignName>
+<engineerTo>
+<item key="29963789-9F30-73E8-158B-F4782BC5955E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombreDelNotario" id="51FAC5F8-DBEC-A683-EC48-BF11F30AB64B">
+<createdBy>hans</createdBy>
+<createdTime>2026-09-03 15:55:40 UTC</createdTime>
+<ownerDesignName>caso_1</ownerDesignName>
+<engineerTo>
+<item key="29963789-9F30-73E8-158B-F4782BC5955E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fechaInidioConvenio" id="66DE8680-D5F2-DC8A-4746-349F63E8A920">
+<createdBy>hans</createdBy>
+<createdTime>2026-09-03 16:24:37 UTC</createdTime>
+<ownerDesignName>caso_1</ownerDesignName>
+<engineerTo>
+<item key="29963789-9F30-73E8-158B-F4782BC5955E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="137F2C46-8120-54A0-55F0-8A0C7DF8054F">
+<createdBy>hans</createdBy>
+<createdTime>2026-09-03 16:28:04 UTC</createdTime>
+<ownerDesignName>caso_1</ownerDesignName>
+<engineerTo>
+<item key="29963789-9F30-73E8-158B-F4782BC5955E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="83ECA317-15E2-C9B8-62F0-D0913D58CDCB" name="NOTARIA PK">
+<createdBy>hans</createdBy>
+<createdTime>2026-09-03 16:32:43 UTC</createdTime>
+<ownerDesignName>caso_1</ownerDesignName>
+<engineerTo>
+<item key="29963789-9F30-73E8-158B-F4782BC5955E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>78EC1629-3F86-8905-2972-5655F54D1E05</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

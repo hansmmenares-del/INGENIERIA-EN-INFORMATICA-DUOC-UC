@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1A8CF79A-9D1D-6A15-876F-98D93D05B892" name="SOLICITUD_CUENTA">
+<createdBy>hans</createdBy>
+<createdTime>2026-08-27 15:43:53 UTC</createdTime>
+<ownerDesignName>EJERCICIO_GUIA_1.1.2</ownerDesignName>
+<engineerTo>
+<item key="0CB4F4CA-32A4-3129-BB85-00AC2CE89634" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="60B67ACE-08F3-0185-CBDB-94508FEBB293">
+<createdBy>hans</createdBy>
+<createdTime>2026-08-27 16:16:15 UTC</createdTime>
+<ownerDesignName>EJERCICIO_GUIA_1.1.2</ownerDesignName>
+<engineerTo>
+<item key="0CB4F4CA-32A4-3129-BB85-00AC2CE89634" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_SOLICITUD" id="84FD5BE8-8186-5A17-D307-487673B9CBD2">
+<createdBy>hans</createdBy>
+<createdTime>2026-08-27 16:16:19 UTC</createdTime>
+<ownerDesignName>EJERCICIO_GUIA_1.1.2</ownerDesignName>
+<engineerTo>
+<item key="0CB4F4CA-32A4-3129-BB85-00AC2CE89634" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ESTADO_SOLICITUD" id="BEC5C59F-1153-0C3E-2F35-857A8BF7B89D">
+<createdBy>hans</createdBy>
+<createdTime>2026-08-27 16:16:23 UTC</createdTime>
+<ownerDesignName>EJERCICIO_GUIA_1.1.2</ownerDesignName>
+<engineerTo>
+<item key="0CB4F4CA-32A4-3129-BB85-00AC2CE89634" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_FINALIZACION_PROCESO" id="0E44F770-F9A4-E709-1FD5-275938E584F5">
+<createdBy>hans</createdBy>
+<createdTime>2026-08-27 16:16:30 UTC</createdTime>
+<ownerDesignName>EJERCICIO_GUIA_1.1.2</ownerDesignName>
+<engineerTo>
+<item key="0CB4F4CA-32A4-3129-BB85-00AC2CE89634" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DB0D8013-0F33-5985-4AC1-EBCF4D64FE87" name="SOLICITUD_CUENTA PK">
+<createdBy>hans</createdBy>
+<createdTime>2026-08-27 16:17:07 UTC</createdTime>
+<ownerDesignName>EJERCICIO_GUIA_1.1.2</ownerDesignName>
+<engineerTo>
+<item key="0CB4F4CA-32A4-3129-BB85-00AC2CE89634" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>60B67ACE-08F3-0185-CBDB-94508FEBB293</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

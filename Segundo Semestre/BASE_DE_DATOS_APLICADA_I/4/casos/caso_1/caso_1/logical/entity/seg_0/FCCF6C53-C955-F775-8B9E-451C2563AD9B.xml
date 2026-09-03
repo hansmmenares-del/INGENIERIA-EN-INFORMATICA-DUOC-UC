@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FCCF6C53-C955-F775-8B9E-451C2563AD9B" name="CONTRATO">
+<createdBy>hans</createdBy>
+<createdTime>2026-08-27 15:43:26 UTC</createdTime>
+<ownerDesignName>caso_1</ownerDesignName>
+<engineerTo>
+<item key="0CB4F4CA-32A4-3129-BB85-00AC2CE89634" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="D791F622-CFFC-23F0-1BC2-C1A84AD4D7F8">
+<createdBy>hans</createdBy>
+<createdTime>2026-08-27 16:11:08 UTC</createdTime>
+<ownerDesignName>caso_1</ownerDesignName>
+<engineerTo>
+<item key="0CB4F4CA-32A4-3129-BB85-00AC2CE89634" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_GENERACION" id="FBA1F328-3C38-E21E-85E4-3145840E9EF0">
+<createdBy>hans</createdBy>
+<createdTime>2026-08-27 16:11:09 UTC</createdTime>
+<ownerDesignName>caso_1</ownerDesignName>
+<engineerTo>
+<item key="0CB4F4CA-32A4-3129-BB85-00AC2CE89634" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_FIRMA" id="765EB033-1EF4-C1DE-0591-CA5E1A595CFC">
+<createdBy>hans</createdBy>
+<createdTime>2026-08-27 16:11:09 UTC</createdTime>
+<ownerDesignName>caso_1</ownerDesignName>
+<engineerTo>
+<item key="0CB4F4CA-32A4-3129-BB85-00AC2CE89634" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ESTADO_DE_CUENTA" id="DBB8790C-DFD7-F7AB-FC1E-1F8C9DEFC14D">
+<createdBy>hans</createdBy>
+<createdTime>2026-08-27 16:11:10 UTC</createdTime>
+<ownerDesignName>caso_1</ownerDesignName>
+<engineerTo>
+<item key="0CB4F4CA-32A4-3129-BB85-00AC2CE89634" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_USUARIO" id="96CD9CED-91CD-7BEA-A3BC-1A70759C695C">
+<createdBy>hans</createdBy>
+<createdTime>2026-08-27 16:14:09 UTC</createdTime>
+<generatorID>B5BB293C-3BC7-1EFF-6163-2B81CA5CDC13</generatorID>
+<ownerDesignName>caso_1</ownerDesignName>
+<engineerTo>
+<item key="0CB4F4CA-32A4-3129-BB85-00AC2CE89634" value="true"/>
+</engineerTo>
+<referedAttribute>88F08A85-2FD2-128A-8D73-DC4CA32A0429</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="3905C69D-9F12-B1B3-4216-CB1041F54465">
+<createdBy>hans</createdBy>
+<createdTime>2026-08-27 16:15:29 UTC</createdTime>
+<generatorID>3A0E5DCF-8C21-EB8B-C886-4381DCAACE6D</generatorID>
+<ownerDesignName>caso_1</ownerDesignName>
+<engineerTo>
+<item key="0CB4F4CA-32A4-3129-BB85-00AC2CE89634" value="true"/>
+</engineerTo>
+<referedAttribute>4FDAF945-601A-ED46-A8B5-73DF23BB6E21</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

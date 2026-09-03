@@ -1,0 +1,37 @@
+4 Principios
+- Abstraccion: Cuando se modela un objeto abstrayendose de las caracteristicas innecesarias.
+- Polimorfismo: [Mismo objeto se comporta de diferente manera]Clase vehiculo -> atributos: color, patente   | Metodos: acelerar(), frenar(), bocina().  -> Se puede crear la clase auto
+- Encapsulamiento: [Acceso a info] Contraseña, login, nombre <- programa ageno no puede acceder a metodos o cosas privadas de la clase  
+- Herencia: [Clase inferior hereda cosas de Clase Superior] Clase Vehiculo(metodos de vehiculo) ->-> Clase Auto (cantidad de puertas; se puede reescribir funcion bocina), Clase Moto ()
+
+
+Para funciones/Metodos :: OVERIDE: Implementacion especial en una subclase, con los mismos parametros, atributos y return.
+
+Para constructores :: SUPER: Alterar las caracteristicas del constructor.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

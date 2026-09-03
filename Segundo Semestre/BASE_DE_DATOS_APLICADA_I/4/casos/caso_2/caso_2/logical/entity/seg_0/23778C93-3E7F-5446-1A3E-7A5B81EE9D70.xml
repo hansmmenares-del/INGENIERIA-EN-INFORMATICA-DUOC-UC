@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="23778C93-3E7F-5446-1A3E-7A5B81EE9D70" name="paciente">
+<createdBy>hans</createdBy>
+<createdTime>2026-08-27 22:01:52 UTC</createdTime>
+<ownerDesignName>caso_2</ownerDesignName>
+<engineerTo>
+<item key="76AA8B72-D377-A95F-6FBE-A5B6F671A71D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_PACIENTE" id="2EE09B00-ADDD-CE8F-4F07-E870A7699D87">
+<createdBy>hans</createdBy>
+<createdTime>2026-08-27 22:02:06 UTC</createdTime>
+<ownerDesignName>caso_2</ownerDesignName>
+<engineerTo>
+<item key="76AA8B72-D377-A95F-6FBE-A5B6F671A71D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="824823E8-AF9E-661A-8225-DA142857A012">
+<createdBy>hans</createdBy>
+<createdTime>2026-08-27 22:02:13 UTC</createdTime>
+<ownerDesignName>caso_2</ownerDesignName>
+<engineerTo>
+<item key="76AA8B72-D377-A95F-6FBE-A5B6F671A71D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="APELLIDO" id="C87CCC1C-63ED-3D86-1AD5-AC01D716B4B7">
+<createdBy>hans</createdBy>
+<createdTime>2026-08-27 22:02:13 UTC</createdTime>
+<ownerDesignName>caso_2</ownerDesignName>
+<engineerTo>
+<item key="76AA8B72-D377-A95F-6FBE-A5B6F671A71D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_NACIMIENTO" id="39CBCE9E-F987-0328-DBF3-BB38BFE35EEF">
+<createdBy>hans</createdBy>
+<createdTime>2026-08-27 22:02:13 UTC</createdTime>
+<ownerDesignName>caso_2</ownerDesignName>
+<engineerTo>
+<item key="76AA8B72-D377-A95F-6FBE-A5B6F671A71D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIPO_DIABETES" id="E7EBBE06-FAE2-B86D-3DDC-1227151FBC2A">
+<createdBy>hans</createdBy>
+<createdTime>2026-08-27 22:02:14 UTC</createdTime>
+<ownerDesignName>caso_2</ownerDesignName>
+<engineerTo>
+<item key="76AA8B72-D377-A95F-6FBE-A5B6F671A71D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E249A67F-7D4A-9ED6-B97C-46BD3124DD1A" name="paciente PK">
+<createdBy>hans</createdBy>
+<createdTime>2026-08-27 22:03:55 UTC</createdTime>
+<ownerDesignName>caso_2</ownerDesignName>
+<engineerTo>
+<item key="76AA8B72-D377-A95F-6FBE-A5B6F671A71D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2EE09B00-ADDD-CE8F-4F07-E870A7699D87</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

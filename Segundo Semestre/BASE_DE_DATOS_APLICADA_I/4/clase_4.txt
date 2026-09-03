@@ -1,0 +1,53 @@
+Relacionando las entidades del Modelo
+
+Id Entidades, Atributos, llaves primarias, 
+
+
+relaciones, cardinalidad, tipos de cardinalidad, grado de cardinalidad asociado a una relacion
+
+1) Relaciones: Depende de las necesidades del negocio. Comunicacion bidireccional, entre dos o más tablas. Relaciones de 1 a muchos, que una tabla sea parte de otro, etc.
+
+ej: dptos y empleados
+los dptos están formados por empleados
+dpto ---<- empleado
+
+Dos entidades: dptos y empleados, la liena directa o punteada.
+Lineas (Cardinalidad Minima): Opcional linea punteada u obligatorio linea directa.
+Etiqueta: Vervo que permite identificar la relacion
+Tipo de relacion (Cardinalidad Maxima): - cardinalidad 1, <- muchos ... por lo tanto de uno a muchos.
+
+
+EJ: Relacion 1:1.
+Pais ____--- Bandera,
+Relacion uno a muchos 1:N
+pais ->___ ciudad, un pais tiene muchas ciudades, muchas ciudades solo un pais.
+Relacion muchos a muchos N:N
+estudiante >---___<- asignatura
+
+Cardinalidad: Es el num min y max en donde las instancias de las entidades se relacionan
+
+Cardinalidad maxima 1 a muchos (extremos que conectan entidades)
+Cardinalidad minima opcional o obligatorio (cuerpo de la linea, punteada o lineal)
+
+N:M
+	Tablas intermedias-> Para asociar muchos a muchos N:M
+	Claves foraneas-> Claves que vienen de otras tablas (entidades) para formar una tabla nueva (tabla intermedia)
+
+1:M
+	Una primary key se pasa a otra tabla
+	repartidor(rut, nombre) ___<- pedido (codigo, nombre pedido pollo asado, *repartidor*)
+	
+	
+__________________
+Grado: Asociaciones unarias, binarias, ternarias y n-arias
+unaria -> Consigo mismo, relgas jerarquicas. Un empleado solo un jefe, un jefe muchos empleados
+rut, nombre, jefatura
+1-1 pedro   2-2
+2-2 juan    2-2
+3-3 diego    4-4
+4-4 cris     n/n
+
+
+binaria, terciaria -> cantidad de entidades
+n-aria -> Muchas entidades
+

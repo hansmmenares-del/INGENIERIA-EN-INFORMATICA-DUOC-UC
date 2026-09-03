@@ -1,0 +1,164 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="504131DB-7E4B-F871-AFB5-0F88B0E9B9FA" name="TRABAJADOR">
+<createdBy>hans</createdBy>
+<createdTime>2026-09-03 15:49:42 UTC</createdTime>
+<ownerDesignName>caso_1</ownerDesignName>
+<engineerTo>
+<item key="29963789-9F30-73E8-158B-F4782BC5955E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>AD21A9F2-3CC1-80DD-02B7-E23E17C48C29</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="primernombre" id="C455830B-1A4D-9D5F-2826-A4512EF27B4E">
+<createdBy>hans</createdBy>
+<createdTime>2026-09-03 16:16:26 UTC</createdTime>
+<ownerDesignName>caso_1</ownerDesignName>
+<engineerTo>
+<item key="29963789-9F30-73E8-158B-F4782BC5955E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="segundoNombre" id="35768AC1-3413-ED4D-69CD-00082D2473CF">
+<createdBy>hans</createdBy>
+<createdTime>2026-09-03 16:16:42 UTC</createdTime>
+<ownerDesignName>caso_1</ownerDesignName>
+<engineerTo>
+<item key="29963789-9F30-73E8-158B-F4782BC5955E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="73968329-A00F-AD6E-2162-48529F2A05FD">
+<createdBy>hans</createdBy>
+<createdTime>2026-09-03 16:16:53 UTC</createdTime>
+<ownerDesignName>caso_1</ownerDesignName>
+<engineerTo>
+<item key="29963789-9F30-73E8-158B-F4782BC5955E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="region" id="160BB747-9888-E9AB-F171-191820F703CF">
+<createdBy>hans</createdBy>
+<createdTime>2026-09-03 16:17:01 UTC</createdTime>
+<ownerDesignName>caso_1</ownerDesignName>
+<engineerTo>
+<item key="29963789-9F30-73E8-158B-F4782BC5955E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="comuna" id="03542B4B-7ABE-5B19-3A99-F14A049137E6">
+<createdBy>hans</createdBy>
+<createdTime>2026-09-03 16:17:37 UTC</createdTime>
+<ownerDesignName>caso_1</ownerDesignName>
+<engineerTo>
+<item key="29963789-9F30-73E8-158B-F4782BC5955E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut" id="FBCBA556-6604-E50B-A4B1-6067452E2302">
+<createdBy>hans</createdBy>
+<createdTime>2026-09-03 16:17:48 UTC</createdTime>
+<ownerDesignName>caso_1</ownerDesignName>
+<engineerTo>
+<item key="29963789-9F30-73E8-158B-F4782BC5955E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fechaDeNacimiento" id="D1EDA063-4F4D-60CC-B3C2-97DFBE27EA99">
+<createdBy>hans</createdBy>
+<createdTime>2026-09-03 16:18:05 UTC</createdTime>
+<ownerDesignName>caso_1</ownerDesignName>
+<engineerTo>
+<item key="29963789-9F30-73E8-158B-F4782BC5955E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipoDeGrupoSanguineo" id="E3E892B6-560B-B902-00B8-C95042BA03D2">
+<createdBy>hans</createdBy>
+<createdTime>2026-09-03 16:18:55 UTC</createdTime>
+<ownerDesignName>caso_1</ownerDesignName>
+<engineerTo>
+<item key="29963789-9F30-73E8-158B-F4782BC5955E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="observacionOpcional" id="F0D603A3-2235-7EE5-663C-D704CE1F5B9C">
+<createdBy>hans</createdBy>
+<createdTime>2026-09-03 16:19:31 UTC</createdTime>
+<ownerDesignName>caso_1</ownerDesignName>
+<engineerTo>
+<item key="29963789-9F30-73E8-158B-F4782BC5955E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numeroDeContrato" id="0C9F3D06-EE26-1DD9-938E-B610EA1204B6">
+<createdBy>hans</createdBy>
+<createdTime>2026-09-03 16:33:53 UTC</createdTime>
+<generatorID>5E279366-549E-D6A9-1F19-EEC01676DEEE</generatorID>
+<ownerDesignName>caso_1</ownerDesignName>
+<engineerTo>
+<item key="29963789-9F30-73E8-158B-F4782BC5955E" value="true"/>
+</engineerTo>
+<referedAttribute>F22F696B-3631-FFA9-0CCA-E7105A26AA51</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D26331B9-5020-4977-7B7E-8088F11D6ABC" name="TRABAJADOR PK">
+<createdBy>hans</createdBy>
+<createdTime>2026-09-03 16:28:24 UTC</createdTime>
+<ownerDesignName>caso_1</ownerDesignName>
+<engineerTo>
+<item key="29963789-9F30-73E8-158B-F4782BC5955E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FBCBA556-6604-E50B-A4B1-6067452E2302</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

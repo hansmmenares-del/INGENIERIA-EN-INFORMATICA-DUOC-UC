@@ -1,0 +1,54 @@
+Victor Cofre Farias Clase 1
+Base de datos I
+
+Relacionales:
+Cómo se comportan los diferentes objetos dentro del él
+Docente + Estudiante. Estan directamente relacionados
+
+(Docente hace clases, estudiante va a clases)
+((El docente puede tener muchas clases al igual que el estudiante))
+Atributos Docente: nombre, rut, formacion, direcc, tel.
+Atributos Estudiante: nombre, rut, formacion, direcc, tel.
+
+Relacional == Excel
+
+Dato = nombre
+informacion = conjunto de "datos"
+
+** Sistema de Gestion de Base de Datos **
+1) DML []: Modelar datos (Select, insert, update delete: CRUD)
+2) DDL [Data Definition Language]: Crear tablas, crear usuarios, crear bases de datos (Create, Alter, Drop), Asignar permisos, encapsulamiento. Quitar permisos (Ya no puede insertar)
+3) DCL: ()
+4) TCL: Transacciones, COMMIT, Similar a git.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

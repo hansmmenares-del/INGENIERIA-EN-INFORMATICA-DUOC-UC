@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8A2C2AC1-AD35-E58A-A732-08585B0803BB" name="dosisInsulina">
+<createdBy>hans</createdBy>
+<createdTime>2026-08-27 22:42:50 UTC</createdTime>
+<ownerDesignName>caso_2</ownerDesignName>
+<engineerTo>
+<item key="76AA8B72-D377-A95F-6FBE-A5B6F671A71D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idDosis" id="7F04376E-170B-6DBE-2629-81DA7A9743CA">
+<createdBy>hans</createdBy>
+<createdTime>2026-08-27 22:43:00 UTC</createdTime>
+<ownerDesignName>caso_2</ownerDesignName>
+<engineerTo>
+<item key="76AA8B72-D377-A95F-6FBE-A5B6F671A71D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipoParametro" id="79108D13-FAF4-B1A8-9744-C6C111760F7B">
+<createdBy>hans</createdBy>
+<createdTime>2026-08-27 22:43:00 UTC</createdTime>
+<ownerDesignName>caso_2</ownerDesignName>
+<engineerTo>
+<item key="76AA8B72-D377-A95F-6FBE-A5B6F671A71D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor" id="8858B146-AD4E-A245-D15E-88CBD5B3FFEF">
+<createdBy>hans</createdBy>
+<createdTime>2026-08-27 22:43:01 UTC</createdTime>
+<ownerDesignName>caso_2</ownerDesignName>
+<engineerTo>
+<item key="76AA8B72-D377-A95F-6FBE-A5B6F671A71D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="unidadMedida" id="D593009A-053A-290E-CAB2-2F211FD483A2">
+<createdBy>hans</createdBy>
+<createdTime>2026-08-27 22:43:01 UTC</createdTime>
+<ownerDesignName>caso_2</ownerDesignName>
+<engineerTo>
+<item key="76AA8B72-D377-A95F-6FBE-A5B6F671A71D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fechaHora" id="75AF0AAA-A223-900F-DBA4-08A7FA7B8B06">
+<createdBy>hans</createdBy>
+<createdTime>2026-08-27 22:43:01 UTC</createdTime>
+<ownerDesignName>caso_2</ownerDesignName>
+<engineerTo>
+<item key="76AA8B72-D377-A95F-6FBE-A5B6F671A71D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Attribute_6" id="EFCDFEC5-DB07-8258-4A26-D740375FE41B">
+<createdBy>hans</createdBy>
+<createdTime>2026-08-27 22:43:29 UTC</createdTime>
+<ownerDesignName>caso_2</ownerDesignName>
+<engineerTo>
+<item key="76AA8B72-D377-A95F-6FBE-A5B6F671A71D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

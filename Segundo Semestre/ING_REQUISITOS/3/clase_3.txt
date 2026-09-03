@@ -1,0 +1,97 @@
+Influencia de requisitos de usuarios
+|
+-> obj de negocio no es lo mismo que req funcionales que req de usuario
+
+
+
+::::::::
+Repaso
+-> Linea de tiempo
+	Inicio: planificacion, ejecucion, control seguimiento
+	final del proyecto.
+	
+Enfoque predictivo:
+Planificación robusta, cada detalle de la siguiente cascada está determinado.
+	"Requisitos -> Analisis -> DIseño -> Programacion -> Prueba -> Operaciones"
+	Sabemos en qué momento se hace tarea, es un poco rigido.
+	
+	Dada esa restriccion de la metodologia de "cascada".
+	
+Manifiesto de metodologias agiles:
+Permite hacer cambios, pero no cambiar el enfoque del proyecto completo.
+acta de constitucion de proyecto
+Se privilegia los req del cliente aen comparacion a el contrato.
+
+CASCADA = Req no cambian demasiado en el tiempo.
+
+En metodologia cascada, la documentacion: sist
+inicio del proyecto, Final de proyecto
+mucho detalle
+
+en agil, la documentacion: product backlog busca priorizar los req
+ciclico
+Basado en los req priorizados
+
+POw, Maximiza el valor del producto, prinipal responsable de def de req,
+SM, Responsable de POw y Devs, es facilitador, lider de proyecto.
+Dev, Desarrollan los componentes en el ciclo.
+
+5 Eventos de SCRUM (Sprints)
+1. Cada sprint tiene como obj entregar un componente funcional que puede ser implementado en operaciones.
+2. Evento principal es el sprint
+	sprint planning: Historia de usuario que se desarrollaran.
+	dayli meeting: reuniones diarias de 15min.
+	refinamiento product backlog.
+	sprint review: 
+	sprint retrospective: al final de sprint se reune el equipo y se revisa que se  hizo bien y mal.
+	
+	
+VISION DE UN PRODUCTO
+Obj del proyecto son equiparables a los req del negocio.
+los req de negocio son definidos por los lideres empresariales/organizacion.
+1) req de negocio[guia de captura de informacion] 2) req de usuario
+
+Pasos para id req de negocio
+1) Plantear hipotesis
+2) Definir metricas: se alcanza o no
+3) Definir vision del producto: cual es el producto que nos hara alcanzar el objetio
+4) definir el alcance del proyecto qué procion de la vision se desarrollara.
+
+
+1. ID el probvlema a resolver y los beneficios esperados.
+si solucion es para los clientes de la empresa, se les pregunta a los lideres
+qué es lo que quieren los usuarios?
+cuál es el obj de la empresa?
+hay que cambiar de nicho de mercado?
+cuanto se va a ganar?
+si es una mejjora dentro de la empresa se les pregunta,
+qué debemos mejorar del proceso/procesos?
+
+
+2. Definir Metricas
+A cada hipotesis se determina si es falsa o no
+Debe tener un valor alcanzable u una fecha esperada de logro.
+
+3. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		

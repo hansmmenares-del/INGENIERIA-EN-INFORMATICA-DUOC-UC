@@ -1,0 +1,158 @@
+Clase 2
+
+Victor Cofre
+
+______________________________________________________________________
+Modelo conceptual -> Tablas, atributos, coneptos generales.
+Bases de datos relacionales
+--- RA1 Modelos Conceptuales ---
+qué:    Entidades, atributos, id unicos, relaciones cardinalidad, modelo entidad relacion
+
+entidad = tablas, clase, docente, estudiantes
+
+Segun capa, modelo conceptual / modelo fisico
+
+** Completar el modelo entidad relacion del caso entregado, incorporando informacion adicional y las vistas de usuario definidas para el problema.
+__________________________
+sem6-10
+Tabla estudiante
++---+------+-------------------+---------+--------+
+rut   name   fecha nacimiento    seccion   Carrera
+cada uno de ellos es un atributo
+Para estructuralo, en secciones o en carrera, eso es normalizacion
+
+Presentacion de nombres -> formateo de estructura, escritura, etc
+
+APEX
+____________________________
+sem sig examen
+sql-oracle apex
+______________________________________________________________________
+
+Abstraccion de datos:
+NO SELECT * FROM; == Mala costumbre
+
+_____
+MODELO CONEPTUAL -> Se resaltan los asusntos importantes de una org
+Conceptos basicos de Modelo Coneptual
+
+Entidad = Tangible -> un estudiantes, un auto.
+Atributo = no tangible -> un color, un nombre.
+
+Para generar diagrama
+|
+-> Registrar una serie de problemas
+-> Modelo conceptual es la primera aproximacion al RE
+-> nombre entidad -----> Atributos
+ej: estudiante ------> rut, nombre
+luego se determinan las relaciones (1,n) [un estudiante puede tener muchas secciones por ej]
+
+**** 1ro requerimientos del usuario: nombres de entidades, atributos, relaciones. estudiantes>-<secciones>-asignatura>-carrera 
+**** 2do Modelo relacional, tipos de datos (tipos de datos más relevantes para la informacion) 
+**** 3ro Modelo Fisico, serie de comandos (script SQL) para crear una tabla
+
+NOMBRES DE ENTIDADES EN PLURAL, TODOS. Atributos en singular
+
+___________
+NARRATIVAS DE USUARIO: analizar, escribir, transcribir la conversacion con el cliente. para entender qué es relevante.
+REGLAS DE NEGOCIO: Normas operativas y restricciones presentes en una organizacion. Nos sirve para obtener el objetivo final del negocio.
+___________
+Entidades
+|
+-> Tangibles/Intangibles
+|
+-> Generalmente sustantivos (vendedor, tienda, marca)
+|
+-> Copia no existe sin original (debil/fuerte)
+Debil por existencia:
+- no hay cuenta si no está el cliente previamente.
+- clientes -< cuentas_bancarias
+por identificacion:
+- Una editorial es de un libro, una editorial existen independientemente del libro, al igual que el libro.
+- libro -|< editorial
+_________________________
+Entidades: CLAVES(
+sujeto = (Estudiantes, Profesores), Coordinador de carrera, jefe de carrera, instituciones, sedes, administraciones, Disponibilidad de juegos de mesa en la biblioteca (problematica), documentos asociados a la problematica)
+
+
+****
+- ID de sujeto que ingresa la solicitud
+	- instituciones
+	- Sedes
+	- nombre, rut
+- Encargado de la biblioteca
+	. institucion
+	- Sede
+	- nombre, rut
+- juego de mesa (nombre del juego)
+		- ID del juego (asociado a ejemplar)
+ 		- institucion
+ 		- sede
+		- {tipo de juego}
+		- {genero}
+		- cantidad de ejemplares
+		- cantidad de jugadores
+	- {Estado de solicitud de juego(disponibilidad)}
+		- Atributo: Libre, en uso, reservado.
+			- Reservaciones
+				- Atributos: quien hace el prestamo, fecha de inicio del prestamo, rango de tiempo (duracion de prestamo), informacion del sujeto que hizo la solicitud
+***
+Atributos:
+- Estado disponibilidad(en uso, libre, reservado)
+- Tipo de juego(habilidad, estrategia, rol, etc.)
+- ID sujeto (ligado a estudiante, profesor, puede ser un numero)
+- Sede(san joaquin, antonio varas, etc)
+- Instituciones(Duoc UC, PUC)
+- Encargado de la biblioteca(funcionario, nombre, etc)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

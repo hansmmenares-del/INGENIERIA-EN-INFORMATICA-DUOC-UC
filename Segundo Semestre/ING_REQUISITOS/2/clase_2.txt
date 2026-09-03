@@ -1,0 +1,64 @@
+Marco de trabajo del proyecto 14/08/2026
+Objetivos de la empresa, objetivos de las personas: Respecto del software,sist,app que se desarrollará
+3 niveles
+- Requisitos del negocio: Lo que busca la org (funcion del soft).
+	- Requisitos del usuario: Lo que se espera que haga.
+		- Requisitos funcionales y no funcionales: Lo que el software tiene que hacer.
+Requisitos de alto nivel == requisitos de negocio
+--
+EJ:
+req del negocio: Reducir costo de personal en un 25% (check in)
+req del user: realizar check in online
+req funcional: el pasajero debe poder imprimir los pasajes de todos los viajes
+req NO funcional: El sist debe estár disponible el 99.5% del tiempo.
+
+
+Calcular iva: se espera eso: es una funcionalidad: 
+colores, frameworks, lenguajes: No funcional
+Seguridad es no funcional:
+Autenticacion por rol, el software lo debe hacer == FUNCIONAL (A peser)
+--
+Roles a la hora de definir req y su relacion con el develop del soft
+-> Req del negocio: lideres empresariaels jefes, gerentes,
+-> Req del usuario/funcionales/no funcionales: POw, PM, Bussines analysts
+
+
+RAMAS
+- desarrollo de req: proceso estructurados para definir req.
+	Levantamiento, analisis, especificacion, validacion
+- Gestion de req: que se cumplan los req (Legales y no legales) y cambios de manera ordenada.
+
+-> Elicitacion: Levantamiento; obtener info sobre req vía entrevista,cuestionario,observacion.
+-> Analisis: Comprension unificada respecto de los req.
+-> Especificacion: Representar y almacenar los req en un solo lugar.
+-> Validacion: con los interesados.
+
+Costos de ejecutar mal la ing de req
+- Retrabajo: elaborar una vez más == 30/50% total del desarrollo
+	errores en def de req sin casi 85% retrabajo
+
+
+- Gestion de requerimientos: actualizar dependeciuas entre requisitos y cambiar codigo fuente, pruebas entre otros.
+ing de req mal == mucha perdida
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

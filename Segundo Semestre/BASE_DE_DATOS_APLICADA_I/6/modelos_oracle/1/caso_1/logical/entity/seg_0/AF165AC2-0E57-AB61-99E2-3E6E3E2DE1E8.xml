@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AF165AC2-0E57-AB61-99E2-3E6E3E2DE1E8" name="CONTRATO">
+<createdBy>hans</createdBy>
+<createdTime>2026-09-03 15:49:47 UTC</createdTime>
+<ownerDesignName>caso_1</ownerDesignName>
+<engineerTo>
+<item key="29963789-9F30-73E8-158B-F4782BC5955E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>AD21A9F2-3CC1-80DD-02B7-E23E17C48C29</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numeroDeContrato" id="F22F696B-3631-FFA9-0CCA-E7105A26AA51">
+<createdBy>hans</createdBy>
+<createdTime>2026-09-03 15:51:41 UTC</createdTime>
+<ownerDesignName>caso_1</ownerDesignName>
+<engineerTo>
+<item key="29963789-9F30-73E8-158B-F4782BC5955E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fechaDeInicio" id="3515066F-911C-919C-9946-882912282B94">
+<createdBy>hans</createdBy>
+<createdTime>2026-09-03 15:51:59 UTC</createdTime>
+<ownerDesignName>caso_1</ownerDesignName>
+<engineerTo>
+<item key="29963789-9F30-73E8-158B-F4782BC5955E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fechaDeFirmaDelContrato" id="4E870F84-F0AF-AD27-04D2-7055AADFA8FA">
+<createdBy>hans</createdBy>
+<createdTime>2026-09-03 15:52:21 UTC</createdTime>
+<ownerDesignName>caso_1</ownerDesignName>
+<engineerTo>
+<item key="29963789-9F30-73E8-158B-F4782BC5955E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="notaria" id="1C8057E2-76D9-38D0-88EF-5648C2BD5D5C">
+<createdBy>hans</createdBy>
+<createdTime>2026-09-03 15:52:33 UTC</createdTime>
+<ownerDesignName>caso_1</ownerDesignName>
+<engineerTo>
+<item key="29963789-9F30-73E8-158B-F4782BC5955E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idNotaria" id="9C4DEE10-593C-8087-6849-CCB92E942D25">
+<createdBy>hans</createdBy>
+<createdTime>2026-09-03 16:32:44 UTC</createdTime>
+<generatorID>AD83A773-D073-1299-3D26-84CD4EF66B5C</generatorID>
+<ownerDesignName>caso_1</ownerDesignName>
+<engineerTo>
+<item key="29963789-9F30-73E8-158B-F4782BC5955E" value="true"/>
+</engineerTo>
+<referedAttribute>78EC1629-3F86-8905-2972-5655F54D1E05</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="928FEDDD-548F-4D2D-3C6B-5D1A8610F726" name="CONTRATO PK">
+<createdBy>hans</createdBy>
+<createdTime>2026-09-03 15:51:57 UTC</createdTime>
+<ownerDesignName>caso_1</ownerDesignName>
+<engineerTo>
+<item key="29963789-9F30-73E8-158B-F4782BC5955E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F22F696B-3631-FFA9-0CCA-E7105A26AA51</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

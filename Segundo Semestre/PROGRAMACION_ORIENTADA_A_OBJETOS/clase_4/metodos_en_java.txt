@@ -1,0 +1,3 @@
+Un objeto tiene
+- Atributos
+- funciones(metodo)-> Capacidad de reutilizar el codigo

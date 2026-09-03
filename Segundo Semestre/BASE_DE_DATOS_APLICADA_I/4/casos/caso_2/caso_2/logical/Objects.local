@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="DC85A75E-B2C7-35E0-5CFD-65D7AB145695" name="bombaInsulina" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="BF7C7368-4175-DFB8-3461-66CC57FE379D" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="8A2C2AC1-AD35-E58A-A732-08585B0803BB" name="dosisInsulina" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="BF7C7368-4175-DFB8-3461-66CC57FE379D" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="11D44801-5D56-926D-6646-5D98CA4283FF" name="muestraSangre" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="BF7C7368-4175-DFB8-3461-66CC57FE379D" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="23778C93-3E7F-5446-1A3E-7A5B81EE9D70" name="paciente" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="BF7C7368-4175-DFB8-3461-66CC57FE379D" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

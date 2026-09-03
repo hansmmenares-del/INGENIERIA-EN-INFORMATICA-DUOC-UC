@@ -1,0 +1,66 @@
+CLASIFICACION DE REQUERIMIENTOS
+
+Lista preliminar de req de usuario func y no func:
+	- preguntas a considerar: qué debo tener en cuenta y considerar a la hora de redactar el requerimiento, de qué forma es mejor presentar el requisito (tablas, graphs), estoy tomano en cuenta los req del negocio (los que influencian a usuarios y afectan req func y no func), se entienden los req?
+	
+	- Req de usuario, lo que espera que haga el producto, y cumple los req func y no func (req de negocio).
+	- Interacciones entre actor y sistema.
+	- Formatos populares (Casos de uso e historias de usuario)
+		- CASOS DE USO: DOS TECNICAS O INSTRUMENTOS: Diagrama de casos de uso y la especificacion de casos de uso, (descripcion entre interacciones sistema y actor interno, usuario o un sistema, el actor puede ser un usuario o un sistema) [[Interaccion de pedir cosas al sistema de interes]] .--- ej comprar un producto quimico, iniciar sesion, ver productos o ver catalogos, acreditarse o registrarse, ordenar por fecha, ordenar por precio, ordenar por marca. [[[SOLICITAR; IMPORIMIR; MODIFICAR; VERIFICAR; GENERAR INFORMES]]]
+		- HISTORIAS DE USUARIO: yo cómo [rol estudiante, asistente, tec, gerente] quiero [necesidad, objetivo], para [beneficio esperado]. Descripcion simple de funcionalidad contada desde el putno de vista de la persona que desea esa funcionalidad. METODO CAMISETAS O FIBONACCI
+			EPICAS
+
+Lo que el sistema debe hacer y cómo lo hará a nivel sistemico, nos permiten cumplkir los req de usuario.
+comportamiento bajo condiciones especificas
+	- Req No FUNC:
+		Descripcion cualidad que se debe respetar. COMPORTAMIENTO. Calidad de producto de software.
+		EXTERNOS
+			- Disponibilidad: disponible cuando se necesite.
+			- Facilidad de insalacion.
+			- Integriad: grado de proteccion, datos.
+			- Interoperabilidad: Interaccion con otros componentes.
+			- Rendimiento.
+			- Confiabilidad: Cuanto tiempo opera hasta fallo
+			- Robustes: situ.
+			- Seguridad: Acceso roles.
+			- Usabilidad: Facil de usuar.
+		INTERNOS
+			- Eficiencia: Procesamiento interno del sistema.
+			- Mantenibilidad: Mejorar y mantener sistema.
+			- Portabilidad: Facilidad para adaptarse a OS.
+			- Reusabilidad: Capacidad de ser utilziado en otros sistemas.
+			- Escalabilidad: Manejar más transacciones.
+			- Verificabilidad: Rapidez de confirmacion de desarrollo de software
+	- Req No FUNC:
+		- Restricciones, restricciones de usuario
+		- Interfaz de usuario
+		- Colores especificos en paginas de landpage.
+		- Lenguajes utilizados, base de datos utilizada.
+		
+		
+		
+	ej req func: solicitar un prod quimico
+	1) requisito funcional 1, RF-1: El quimico debe poder regustrarse en la plataforma.
+	2) RF-2: El quimico debe poder rvisar el listado de prod quimicos disponibles.
+	3) El quimico debe poder solicitar la compra de productos quimicos solo si hay disponibilidad del artiuculo.
+	
+	ej req no func:
+	1) RNF-1: Seguir estardar de forma segura de registro siguiendo estandar x.
+	2) RNF-2: Escalabilidad
+	
+	
+	
+	::::: COMO REDACTAR BUEN REQUERIMIENTO ::::
+Estandar IRS; IEEE
+Debe cumplir con 6 atributos.
+coherencia, los documentos en terminos de fomato y estructura para evitar confuciones
+claridad, nada ambiguo
+completitud, no falta ni sobra nada.
+relevancia, solo lo relevante y atingente al obj del negocio y producto
+verificables, posible determinar si se cumple o no
+trazabilidad, establecer y mantener vinculos ebtre requisitos
+
+
+
+ej: RFs se complementan bastante con los RNF
+Para informe: Solo requerimientos func y no func, para la etapa se trabaja con casos de uso. caso entregado es req fun y no func. 

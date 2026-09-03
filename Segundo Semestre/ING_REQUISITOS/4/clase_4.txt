@@ -1,0 +1,38 @@
+Def de producto
+diferentes enfoques
+repaso metodologias agiles cascada, scrum, kanban
+id req de negocio: hipotesis, metricas, alcance del proyecto
+metricas financieras y no financieras:
+metricas deben ser alacanzables
+Empezar con el fin en mente
+
+
+______________________________
+DEFINIR LA VISION DEL PRODUCTO
+Quien hace la actividad o tiene una necedidad,el producto es una, es una categoria de producto, qué principales beneficios, etc.
+
+Para personas x ...,
+el  [nombre del producto]...,
+Es un sistema de ...,
+que proporciona ...,
+a diferencia de ...,
+Nuestro producto genera automaticamente ...,
+
+PENSAR EN USUARIOS POTENCIALES:
+|
+-> Saber quienes trabajaran con el sistema. -> Si se solicita un sistema de contabilidad, se sabe quienes trabajaran con ese sistema.
+-> Identificar un mercado identificado. -> Mapas de empatia, encuestas
+
+Miercoles 09 de septiembre experiencia 1 evaluacion parcial 1.1
+
+Caso a trabajar: Esta en anuncio de ava, veranum
+
+empresa con 2 hoteles -> Experiencia 30 años -> Se destaca en por cercania a clientes y fluides con ellos
+-> En los hoteles hay fidelizacion con los clientes -> Mercado competitivo
+-> Hoteles veranum tiene reducida publicidad -> Depende del boca a boca 
+Problema -> Competencia con canales de difusion (internet)
+sol -> se entrega todo.
+
+
+
+NO CONFLUENCE

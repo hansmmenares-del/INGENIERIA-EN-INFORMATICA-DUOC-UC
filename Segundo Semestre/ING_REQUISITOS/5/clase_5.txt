@@ -1,0 +1,51 @@
+Alcance del proyecto
+qué hará y que no hará el producto.
+
+LIMITACIONES: Carac que no tendrá el sistema. Se establecen porque así se evita que el usuarios asuman lo que tendrá la solucion/sistema.
+
+- Evitar que los clientes se imaginen algo que no ocurrirá
+- Falsas expectativas, 
+
+Alcance: presupuesto y plazo.
+
+
+PERSPECTIVA DEL PRODUCTO
+Es la represntacion del producto con otros productos de la empresa,
+en desarrollo de software con otros sistemas.
+FUNCIONES DEL PRODUCTO
+Enumerar, resaltar carac unicas del producto, para centrarse en el negocio y usuarios, evitando incluir funciones innecesarias y asignando etiquetas distintivas a cada carac
+(no 20 item, es reducido)
+LIMITACIONES Y EXCLUSIONES
+Enumerar capacidades o caracpero que no se incluiran en el producto
+CARACTERISTICAS DE LOS USUARIOS
+Presentar perfiles de los principales usuarios, segun como la solucion agregará valor
+(Adultos, mayores, niños pequeños)
+
+ej cafeteria: DIAGRAMA DE CONTEXTO
+- Se situa el software en un contexto: Se traza la interaccion de otros sitemas con el producto. El sistema de pedidos de la cafeteria (central), los demas sistemas son perifericos (Sistema de pagos, staff, administracion de menu, sistema delivery).
+- Funciones del producto: Se enlistan las funciones que tendrá el producto, de acuerdo a la vision y requisitos del negocio. por ej: ordenar y paga, crear/ver/mod pedidos, ver lista de productos, proporcionar 
+(EMPIEZAN CON VERBO; PROPORCIONAR; ENTREGAR; ORGANIZAR)
+- Arbol de funciones: primer/segundo nivel
+- Limitaciones y exclusiones: Similar a lista de funciones pero las que no serán incluidas: la app no tendra restorantes fuera de la RM.
+-
+
+
+CARACTERISTICAS DE LOS USUARIOS
+usuario == {
+		(Clientes de la cafereteria) + (Staff de la cafeteria)
+		}
+Usuario cliente -> Lo usa 5 veces por semana
+[[manueales de sistema y de usuario para capacitaciones]]
+
+RECOMENDACIONES para alcanzar obj del proyecto
+- Solicitudes de cambio: Tener en cuenta que el alcance es una estructura adaptable y se puede ajustar a las necesidades cambiantes. Los cambios pueden ser beneficiosos y van con las necesidades cambiantes del cliente.
+- Incorporar req implica priorizar, retrazar o cancelar req existentes.
+- Podría ocurrir sobretrabajo
+¿Que elementos del alcance debo desarrollar primero?
+
+
+
+ALCANCE: VIsion del producto, representado de varias formas
+
+
+definir la interaccion con el sistema, vision del producto

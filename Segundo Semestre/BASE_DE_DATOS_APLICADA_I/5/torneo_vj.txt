@@ -1,0 +1,68 @@
+torneo org vj
+NOMBRE: GameArena
+
+TODO:
+- Abstraer info relevante.
+- representar modelo conceptual.
+- Narrativa de usuario y reglas de negocio.
+- Entidades y clasificación entre entidades fuertes y débiles.
+- Atributos simples, compuestos, monovalentes, polivalentes y derivados.
+- Atributos obligatorios y opcionales.
+- Identificadores únicos.
+- Relaciones entre entidades.
+- Cardinalidad mínima y máxima.
+- Relaciones 1:1, 1:N y N:N cuando corresponda.
+- Grado de las relaciones: unarias, binarias, ternarias o N-arias.
+- Dependencia en existencia y dependencia en identificación.
+
+
+Entidades:
+0) vj
+	- idVJ PK # * [VARCHAR]
+	- nombre * [VARCHAR]
+	- genero * [VARCHAR]
+	- desarrollador * [VARCHAR]
+1) jugadores
+	- registro * [boolean]
+	- runDeJugador PK # * [VARCHAR]
+	- nombre * [VARCHAR]
+	- apellido * [VARCHAR]
+	- fechaNacimiento o [date]
+	- nickName UK * [VARCHAR]
+	- correo UK * [VARCHAR]
+	- edadJugador deriv [integer]
+	- ciudad o [VARCHAR]
+	- calle o [VARCHAR]
+	- numero o [VARCHAR] 
+	- comuna o [VARCHAR]
+	- idEquipo FK o [integer]
+	- recomendacionOpcional o [VARCHAR]
+2) equipos
+	- idEquipo PK # * [integer]
+	- nombre
+	- fecha
+	- descripcionOpcional o
+	- runDeJugador FK *
+	- tieneJugadores * bool (if x > 0 true)
+	- idCapitan UK *
+	- idTorneo UK *
+	[Relacion jugaodores n:1 equipos]
+	[grado unaria capitan del equipo]
+3) torneos
+	- idTorneo PK # * [VARCHAR]
+	- idVJ UK * [VARCHAR]
+	- nombre * 
+	- fehcaDeInicio * [date]
+	- fechaDeTermino * [date]
+	- premioTotal ?
+	- cantidadMaximaDeEquipos * [integer]
+	[Relacion VJ 1:n torneos]
+	[Relacion equipos m:n torneos]
+	[Relacion ]
+4) partidas
+	-
+5) localidad
+	- idCiudad #*
+	- runDeJugador FK
+	- nombreCiudad
+6) 

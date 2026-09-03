@@ -1,0 +1,39 @@
+Repaso
+"this".color = depende del objeto, hace referencia a si mismo
+- Encapsulamiento: private, public, default
+- Herencia: creacion de clase, hijo de la clase (hereda parametros y/o funciones)
+- Polimorfismo: Dependiendo del objeto, una misma funcion tiene otro output por ejemplo.
+- Abstracción: Se trata de ocultar cierta informacion no relevante.
+
+_______
+
+Tipos de datos y operadores
+[Primitivos, referencia, operadores y precedencia]
+Al declarar variable es necesario especificar el tipo de variable que es,
+
+LAS CLASES SE COMIENZAN CON MAYUSCULA
+por ej: 
+	Int edad = 20;
+	Double num = 2.5
+	Bolean es_real = true;
+	String cadena_cualquiera = "hola";}
+
+	if (condicion){lo que hace}
+	
+TIPOS DE DATOS:
+primitivos: Guardado directo del tipo de dato en la memoria
+de referencia: Están almacenados en otro lugar (puntero)
+
+Operadores Aritméticos
+% = modulo: Es el resto de la division
+++ o --
+
+Operaciones de comparación
+"==", "!=", "<, >, <=, >=" 
+
+Operadores lógicos
+and, or, not ("&&", "||", "!" )
+
+___________________________________
+
+

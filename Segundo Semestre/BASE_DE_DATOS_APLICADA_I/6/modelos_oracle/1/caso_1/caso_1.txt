@@ -1,0 +1,47 @@
+info trabajador
+clase
+	TRABAJADOR
+		Atributos
+			- nombreEmpresa
+			- rutEmpresa
+			- nombreCompleto (1,2)
+			- apellidoMaterno
+			- apellidoPaterno
+			- direccion
+			- region
+			- provincia
+			- comuna
+			- rut
+			- fechaDeNacimiento
+			- tipoDeGrupoSanguineo
+			- observacionOpcional
+			
+	CONTRATO
+		Atributos generales
+			- numeroDeContrato
+			- fechaDeInicio
+			- fechaDeFirmaDelContrato
+			- notaria
+		-> PLAZO FIJO
+			- valorHora
+			- fechaTerminoContrato
+		-> INDEFINIDO
+			- sueldo
+			- porcentajeDeBonificacion
+			- descuentoSindical
+	NOTARIA
+		- nombreDelNotario
+		- fechaDeInicioDeActividad
+		- direccion -> comuna, provincia, region
+	
+	CARGASFAMILIARES
+		- run
+		- apellidos
+		- nombres
+		- fechaDeNacimiento
+		- sexo (m o f)
+		- tipoDeParentesco (conyuge, ascendiente, descendiente, hijo con discapacidad)
+		
+		
+		
+	

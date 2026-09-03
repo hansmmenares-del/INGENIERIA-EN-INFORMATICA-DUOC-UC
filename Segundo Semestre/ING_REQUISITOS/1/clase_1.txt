@@ -1,0 +1,41 @@
+ING REQ
+
+Patricio Soto
+______________________________________________________________
+Relacionar Gestion deproyectos y la ingenieria de requisitos
+
+- *** Transformación Digital *** -
+- *** IOT *** -
+nube -> Iaas, PaaS, SaaS, NaaS
+Big Data
+Low Code - Not Code
+Ley datos personales chile
+______________________________________________________________
+
+Proyecto:
+Tiene un inicio y un final
+|
+-> Es único, no todo tienen las mismas necesidades.
+-> ¿qué debe hacer el sist?
+quienes lo usan?
+obj de la org
+Incrementar usuarios? mejorar exp?
+cúando debe estar listo el soft?
+quíenes usarán el programa, qué problemas debe ser resistente?
+
+Saber el problema, la necesidad, los requisitos
+
+Definir detalladamente los resultados esperados y garantizar que se cumplan, abordaje de estrategias para abnordar cambios durante el proyecto.
+Suma de todos los req = trabajo total del proyecto
+
+
+
+E1: Definir el proyeto (Marco de trabajo del proyecto) usuarios, obj, componentes
+E2: Definir req del proyecto.
+E3: Crear un prototipo funcional "sin codigo".
+
+
+Determinar el marco de trabajo:
+
+
+

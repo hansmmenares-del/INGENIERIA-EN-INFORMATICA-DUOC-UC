@@ -1,0 +1,43 @@
+MERE
+Modelo Entidad Relacion Extendido
+
+Jerarquía y Herencia:
+	- En un modelo de datos, donde automovil una entidad, que contiene atributos
+	Auto
+		Atributos
+			- Placa patente unica
+			- Marca
+			- Modelo
+			- Color
+			- cantidadPuertas
+	Moto
+		Atributos
+			- PPU
+			- Marca
+			- Modelo
+			- Color
+			- Cilindrada
+	Camion
+		Atributos
+			- PPU
+			- Marca
+			- Modelo
+			- Color
+			- Tonelaje
+
+Generamos una tabla llamada vehiculo que posee los atributos ppu, marca, modelo y color.
+Vehiculo
+	auto
+		- cantidadPuertas
+	moto
+		- cilindrada
+	camion
+		- tonelaje
+		
+PRINCIPIO DE EXCLUSIVIDAD:
+	- sucursal
+	- tallerDeMantenimiento
+
+INTRANSFERIBLE:
+	- No se puede actualizar
+	

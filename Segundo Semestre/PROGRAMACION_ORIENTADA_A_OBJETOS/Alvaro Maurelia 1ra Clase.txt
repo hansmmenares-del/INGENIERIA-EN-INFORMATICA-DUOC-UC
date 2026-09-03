@@ -1,0 +1,175 @@
+Alvaro Maurelia
+1ra Clase
+
+::: JAVA :::
+Objetos == {
+	Caracteristicas :
+		Dos objetos pueden ser similares.
+		Vehiculo:
+			Los parametros pueden ser "Marca, modelo, color".
+			Sus funciones pueden ser Transportar() ** Las funciones se escriben como función **
+	}
+Instanciado == {
+	Cuando se crea una instancia real de un objeto, no solo definirlo.
+	}
+Al momento de declarar un objeto se está creando una instnacia.
+
+-------------------------------------------------------------------------------
+CLASS V/S OBJECT
+Clase = Funciones sin declarar; Objeto = La instancia del objeto (Instanciando)
+-------------------------------------------------------------------------------
+
+Clase animal
+- Nombre: String
+- Edad: Int
+- Tipo: String
+	Metodos
+		- hacerSonido(): void
+		- comer(): void
+Instanciados
+perro1: Animal
+- Nombre: "MAX"
+- Edad: 3
+- Tipo: "Perro"
+
+pato1: Animal
+- Nombre: "Donald"
+- Edad: 4
+- Tipo: "Pato"
+
+(AMBOS PUEDEN COMER Y HACER SONIDO PORQUE SON DE LA CLASS ANIMALES YA DEFINIDA)
+
+
+CONSTRUCTOR:
+Si quiero instanciar un objeto debo pasarle ciertos parametros, de otro modo no se puede crear el objeto.
+	Por ej: {
+		Para crear la clase "Rectangulo",
+		-> Debe tener:
+		Altura:
+		Perimetro:
+		Area:
+		
+		-> Metodo:
+		mostrar()
+		
+		
+		-> Para declararlo se hace:
+		New Rectangulo (15,10)
+		Constructor recibe ciertos parametros
+		Constructor(base,altura)
+		
+		// Constructor sirve para inicializar un objeto
+	}
+
+EL CONSTRUCTOR NO TIENE NINGUN RETORNO, solo sirve para instanciar.
+
+
+____________________________________________________________________
+
+"This" EN JAVA
+
+La respuesta de cada objeto en una clase deben ser "similares"
+ej plumones: color? 1) rojo, 2) azul. 
+			 es lapiz? 1) true, 2) true.
+			 
+Los parametros propios del mismo objeto, para referenciarlos, se utiliza el "This".parametro
+
+This.perimetro = 2*This.base + 2*This.altura;
+____________________________________________________________________
+
+ENCAPSULAMIENTO EN JAVA
+
+User: // Tiene como parametros
+- nombre:	// Debería ser público
+- pass:		// Debería ser privada
+Verificar() // sirve para verificar que nombre y password coinciden:
+getNombre() // Sirve para obtener el nombre del usuario
+getPassword()
+
+// EN ESTE CASO: la capsula, desde afuera se puede acceder a la funcion verificar y getNombre, pero no puede acceder a getPassword.
+// La funcion Verificar utiliza la contraseña ingresada para que dentro de la capsula se ejecute getPassword.
+
+____________________________________________________________________
+
+Modificadores de Acceso
+-> Publico, privado y default
+____________________________________________________________________
+
+Herencia
+Las Clases se pueden heredar.
+ej: Vehiculo -> Tiene:
+        - color
+        - marca
+        - año
+
+        acelerar()
+        frenar()
+        bocina()
+
+Clase auto hereda de Vehiculo
+entonces:
+(((OBJETO PADRE == VEHICULO, OBJETOS HIJOS == AUTO Y MOTO [obtienen todas las funciones y atributos de los padres])))
+    Auto <- Vehiculo
+        -cantidad de puertas
+    Moto <- Vehiculo (Tiene todos los atributos de "Vehiculo")
+        wheele()
+        carril_intermedio()
+            overwrite
+                bocina(): "bip!"
+
+____________________________________________________________________
+
+Polimorfismo
+Misma referencia, diferente comportamiento
+Super clase animal, el padre con funcion "hacer_sonido()" podemos hacer que se comporte diferente en algunos casos especificos.
+
+____________________________________________________________________
+
+Abstraccion
+Centrarse en qué hace, en vez de como se hace.
+clase persona
+Persona:
+    nombre
+    Edad
+    altura
+    correr()
+    saltar()
+
+instanciando a una persona...
+Juan, 31 años, 1.70m
+
+Simplificacion utilizando solo algcolor
+        - marca
+        - año
+
+        acelerar()
+        frenar()
+        bounos parametros escenciales para el
+
+____________________________________________________________________
+
+UML:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

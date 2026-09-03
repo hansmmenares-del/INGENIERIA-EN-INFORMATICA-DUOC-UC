@@ -1,0 +1,54 @@
+1)
+Dato vs Informacion
+Dato = simbolo bruto, un hecho aislado, dentro de un tablero y contexto el dato se convierte en informacion.
+
+Abstraccion de datos
+Reduccion de informacion irrelevante
+
+
+2)
+
+Sistemas Gestores de bases de datos (SGBD)
+Crear, administrar las bd
+
+
+
+3)
+
+Entidades de modelo conceptual
+req -> modelo Coneptual -> Normalizacion -> Modelo relacional -> MOdelo fisico de la base de datos
+
+Entidades son los sustantivos de la oracion; personas, cosas, lugar, org, evento
+
+
+4)
+
+Atributos son los adjetivos de las entidades: Caja() -> Todo lo que está adentro de la caja = Atributos
+
+Monovalente, polivalente, derivado:
+* ° 
+
+
+5)
+Relaciones entre entidades. Son las reglas del negocio plasmado como reglas logicas.
+Se pueden representar con verbos.
+-> Cardinalida: Continua obligatoria, punteada opcional
+"<-" muchos //// "-" solo uno
+
+
+Ej modelo conceptual; Alumnos -> NOTAS -> ASIGNATURA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
