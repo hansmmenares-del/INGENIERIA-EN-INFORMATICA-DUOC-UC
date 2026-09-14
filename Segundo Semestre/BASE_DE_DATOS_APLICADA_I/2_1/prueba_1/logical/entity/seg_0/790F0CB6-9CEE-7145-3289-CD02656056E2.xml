@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="790F0CB6-9CEE-7145-3289-CD02656056E2" name="SEGURO_AGRICOLA">
+<createdBy>hans</createdBy>
+<createdTime>2026-09-14 13:36:33 UTC</createdTime>
+<ownerDesignName>prueba_1</ownerDesignName>
+<engineerTo>
+<item key="BB2A5CF5-9886-90A8-62AF-B9E60E9D3639" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_seguro" id="611AA360-B5FE-BB51-96C0-C334FE1006BF">
+<createdBy>hans</createdBy>
+<createdTime>2026-09-14 13:39:38 UTC</createdTime>
+<ownerDesignName>prueba_1</ownerDesignName>
+<engineerTo>
+<item key="BB2A5CF5-9886-90A8-62AF-B9E60E9D3639" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_seguro" id="A3F75E12-0EDF-820B-1292-9B880AE36B02">
+<createdBy>hans</createdBy>
+<createdTime>2026-09-14 13:39:49 UTC</createdTime>
+<ownerDesignName>prueba_1</ownerDesignName>
+<engineerTo>
+<item key="BB2A5CF5-9886-90A8-62AF-B9E60E9D3639" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_seguro" id="82D4D89F-ABC1-7E50-C11F-6D71879C90FD">
+<createdBy>hans</createdBy>
+<createdTime>2026-09-14 13:39:52 UTC</createdTime>
+<ownerDesignName>prueba_1</ownerDesignName>
+<engineerTo>
+<item key="BB2A5CF5-9886-90A8-62AF-B9E60E9D3639" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut_aseguradora" id="AEADF725-894E-EB62-D9B6-70B827F4E7A0">
+<createdBy>hans</createdBy>
+<createdTime>2026-09-14 13:44:32 UTC</createdTime>
+<generatorID>5B357515-BA9E-8176-B913-338E02F372E2</generatorID>
+<ownerDesignName>prueba_1</ownerDesignName>
+<engineerTo>
+<item key="BB2A5CF5-9886-90A8-62AF-B9E60E9D3639" value="true"/>
+</engineerTo>
+<referedAttribute>D96AC000-A481-6864-69C2-FC8E64579274</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CD929A0A-0D85-3A2C-0307-66D42CEB1597" name="SEGURO_AGRICOLA PK">
+<createdBy>hans</createdBy>
+<createdTime>2026-09-14 13:40:43 UTC</createdTime>
+<ownerDesignName>prueba_1</ownerDesignName>
+<engineerTo>
+<item key="BB2A5CF5-9886-90A8-62AF-B9E60E9D3639" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>611AA360-B5FE-BB51-96C0-C334FE1006BF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

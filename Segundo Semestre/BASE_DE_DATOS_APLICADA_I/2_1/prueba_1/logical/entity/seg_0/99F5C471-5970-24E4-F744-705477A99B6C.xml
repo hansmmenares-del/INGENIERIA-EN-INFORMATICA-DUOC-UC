@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="99F5C471-5970-24E4-F744-705477A99B6C" name="KIT_MANTENIMIENTO">
+<createdBy>hans</createdBy>
+<createdTime>2026-09-14 13:44:47 UTC</createdTime>
+<ownerDesignName>prueba_1</ownerDesignName>
+<engineerTo>
+<item key="BB2A5CF5-9886-90A8-62AF-B9E60E9D3639" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_kit" id="ACCB81BF-CF37-6F23-69B4-4C339A59EE6E">
+<createdBy>hans</createdBy>
+<createdTime>2026-09-14 13:47:11 UTC</createdTime>
+<ownerDesignName>prueba_1</ownerDesignName>
+<engineerTo>
+<item key="BB2A5CF5-9886-90A8-62AF-B9E60E9D3639" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_arriendo" id="0D001CBF-3B62-5AB3-C7A5-6FCD9A67CDD9">
+<createdBy>hans</createdBy>
+<createdTime>2026-09-14 13:54:43 UTC</createdTime>
+<generatorID>34D85F28-049D-623D-8F2F-70B4FA8C9278</generatorID>
+<ownerDesignName>prueba_1</ownerDesignName>
+<engineerTo>
+<item key="BB2A5CF5-9886-90A8-62AF-B9E60E9D3639" value="true"/>
+</engineerTo>
+<referedAttribute>0FD34595-5E02-24EB-CB10-7045657D38C1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A8176BE9-FF6D-3DE0-50D7-BD2D1D0E265E" name="KIT_MANTENIMIENTO PK">
+<createdBy>hans</createdBy>
+<createdTime>2026-09-14 13:48:04 UTC</createdTime>
+<ownerDesignName>prueba_1</ownerDesignName>
+<engineerTo>
+<item key="BB2A5CF5-9886-90A8-62AF-B9E60E9D3639" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>ACCB81BF-CF37-6F23-69B4-4C339A59EE6E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

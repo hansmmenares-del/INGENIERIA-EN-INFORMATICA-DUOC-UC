@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F2CE0E95-D413-C95B-8646-F198A98C62D1" name="COMPANIA_ASEGURADORA">
+<createdBy>hans</createdBy>
+<createdTime>2026-09-14 13:37:20 UTC</createdTime>
+<ownerDesignName>prueba_1</ownerDesignName>
+<engineerTo>
+<item key="BB2A5CF5-9886-90A8-62AF-B9E60E9D3639" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="rut_aseguradora" id="D96AC000-A481-6864-69C2-FC8E64579274">
+<createdBy>hans</createdBy>
+<createdTime>2026-09-14 13:40:07 UTC</createdTime>
+<ownerDesignName>prueba_1</ownerDesignName>
+<engineerTo>
+<item key="BB2A5CF5-9886-90A8-62AF-B9E60E9D3639" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="razon_social" id="FA971BB8-8344-9466-13D0-0F993147A024">
+<createdBy>hans</createdBy>
+<createdTime>2026-09-14 13:40:22 UTC</createdTime>
+<ownerDesignName>prueba_1</ownerDesignName>
+<engineerTo>
+<item key="BB2A5CF5-9886-90A8-62AF-B9E60E9D3639" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="51190032-AA87-BB07-9C28-07AFDB5A6312" name="COMPANIA_ASEGURADORA PK">
+<createdBy>hans</createdBy>
+<createdTime>2026-09-14 13:40:38 UTC</createdTime>
+<ownerDesignName>prueba_1</ownerDesignName>
+<engineerTo>
+<item key="BB2A5CF5-9886-90A8-62AF-B9E60E9D3639" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D96AC000-A481-6864-69C2-FC8E64579274</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

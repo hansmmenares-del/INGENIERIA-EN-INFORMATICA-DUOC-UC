@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1BBAE902-22B4-D583-498C-6B0E0D9E1949" name="DETALLE_KIT">
+<createdBy>hans</createdBy>
+<createdTime>2026-09-14 13:45:13 UTC</createdTime>
+<ownerDesignName>prueba_1</ownerDesignName>
+<engineerTo>
+<item key="BB2A5CF5-9886-90A8-62AF-B9E60E9D3639" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nro_detalle" id="6D10EF78-E0F2-49E7-5579-54BCB2E17F90">
+<createdBy>hans</createdBy>
+<createdTime>2026-09-14 13:46:43 UTC</createdTime>
+<ownerDesignName>prueba_1</ownerDesignName>
+<engineerTo>
+<item key="BB2A5CF5-9886-90A8-62AF-B9E60E9D3639" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cantidad" id="09716CA6-A2FC-FA67-152F-20A13E96B594">
+<createdBy>hans</createdBy>
+<createdTime>2026-09-14 13:46:57 UTC</createdTime>
+<ownerDesignName>prueba_1</ownerDesignName>
+<engineerTo>
+<item key="BB2A5CF5-9886-90A8-62AF-B9E60E9D3639" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_kit" id="E153648B-96D5-09E9-D924-7EF24E8515EE">
+<createdBy>hans</createdBy>
+<createdTime>2026-09-14 13:48:47 UTC</createdTime>
+<generatorID>5FEEDD7A-5169-E64A-233F-6D628FE7E53B</generatorID>
+<ownerDesignName>prueba_1</ownerDesignName>
+<engineerTo>
+<item key="BB2A5CF5-9886-90A8-62AF-B9E60E9D3639" value="true"/>
+</engineerTo>
+<referedAttribute>ACCB81BF-CF37-6F23-69B4-4C339A59EE6E</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A70C5495-7E2F-12D6-61A4-6F508C28B367" name="DETALLE_KIT PK">
+<createdBy>hans</createdBy>
+<createdTime>2026-09-14 13:47:01 UTC</createdTime>
+<ownerDesignName>prueba_1</ownerDesignName>
+<engineerTo>
+<item key="BB2A5CF5-9886-90A8-62AF-B9E60E9D3639" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6D10EF78-E0F2-49E7-5579-54BCB2E17F90</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
