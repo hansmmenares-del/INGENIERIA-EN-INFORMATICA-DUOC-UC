@@ -1,0 +1,61 @@
+Normalizacion = limpiar, ordenar. tiene varias normalizaciones posibles
+
+Vistas de usuario -> No necesariamente
+facturas, paginas
+
+FACTURA ELECTRONICA
+	CLIENTE
+		- nombre
+		rut
+		direcc
+		comuna
+		telefono
+	PRODUCTO
+		- cantidad de productos comprados
+		detalle del producto
+		precio unitario
+		importe total de prod
+	TRANSACCION
+		- id transaccion
+	VENTA
+		- monto
+		fecha
+		hora
+		terminal POS
+
+NORMALIZACION
+Serie de reglas, que minimizan la redundancia, datos duplicados, se reduce la mala trazabilidad
+Se corrigen riesgos, se evitan datos irrelevantes, evitar creacion, actualizacion o eliminacion de relaciones no deseadas
+menos revision
+Facilidad de entender el modelo
+
+
+6 FORMAS NORMALES
+123 == Más importantes
+
+1ra FORMA NORMAL:
+	Todos los valores son atomicos. Los atributos deben si o si ser en singular
+	Una clave unica
+2da FORMA NORMAL:
+	Si o si debe estár aplicada la primera forma normal.
+	Debe haber dependencia.
+	Cada atributo debe ser propio de la entidad.
+3ra FORMAL NOMRAL
+	Si o si debe estár aplicada la primera y segunda forma normal
+	En caso de que un atributo pueda identificar algo fuera de la entidad propia, entonces se debe crear una entidad
+	
+
+NORMALIZACION DESDE LA VISTA DE USUARIO
+	BOLETA
+		-num
+		rut
+		nombre
+		rubro
+		direcc
+		comuna
+		fecha
+		hora
+		indicador_servicio
+		
+		
+

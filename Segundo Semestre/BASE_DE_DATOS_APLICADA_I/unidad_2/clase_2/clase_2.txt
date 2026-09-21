@@ -1,0 +1,15 @@
+vista de usuario: boleta, factura
+nomrlaizacion: ahorro de errores
+niveles de normalizacion: 6, 3 basicos y necesarios.
+	
+	- 1ra forma normal.
+	- Todos los valores son atomicos.
+	(No deberían haber datos plurales) -> Crear entidad separada
+	
+	- 2da forma nomrmal.
+	(Debe estar aplicada la primera forma)
+	(Todo depende de la clave primaria de la entidad) -> Se deben crear entidades separadas para atributos)
+	
+	-3ra forma normal.
+	(Ningun atributo no clave depende de otro no clave)
+	(caso revista {id_revista, nombre_revista, *id_editorial*}) -> crear entidad entidad editorial

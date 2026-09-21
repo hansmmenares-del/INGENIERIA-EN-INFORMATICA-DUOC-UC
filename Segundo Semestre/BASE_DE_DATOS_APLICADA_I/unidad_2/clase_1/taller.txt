@@ -1,0 +1,35 @@
+SECCION A
+	DATOS_AFILIADO
+		#* PK rut
+		nombres *
+		apellidos *
+		mails *
+		direccion *
+		telefonos *
+		renta_imponible
+		estado_previsional*
+	
+	
+SECCION B
+	EMPLEADOR_O_ESTADO_PREVISIONAL_DEL_TITULAR
+		rut
+		razon_social
+		mail
+		direccion
+		telefono
+		
+	
+	CERTIFICADO_DE_PRESTAMO_DE_SALUD
+		#* PK numero
+		programa_de_salud *
+		modalidad
+		mle
+		mai
+	TIPO_DE_PRESTAMO_MEDICO
+		urgencia
+		ges
+		otros
+	PRESTAMO_MEDICO
+		#* PK numero
+		monto
+SCCION

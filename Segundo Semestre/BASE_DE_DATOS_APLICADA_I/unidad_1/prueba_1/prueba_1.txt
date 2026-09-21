@@ -1,0 +1,205 @@
+EMPRESA
+    - #* idEmpresa [INTEGER]
+    - * nombre [VARCHAR]
+
+
+MAQUINARIA
+    - #* idUnico [VARCHAR]
+    - * marca [VARCHAR]
+    - * modelo [VARCHAR]
+    - o anioDeFabricacion [INTEGER]
+    - * estadoActual [VARCHAR] 
+        (DISPONIBLE, EN_MANTENCION, ARRENDADA)
+
+    MOTORIZADA
+        - #* idUnico [PK, FK -> MAQUINARIA]
+        - * potenciaHp [NUMERIC]
+
+    MANUAL
+        - #* idUnico [PK, FK -> MAQUINARIA]
+        - * pesoKg [NUMERIC]
+
+
+EMPLEADO
+    - #* run [VARCHAR]
+    - * nombres [VARCHAR]
+    - * apellidoPaterno [VARCHAR]
+    - * apellidoMaterno [VARCHAR]
+    - * cargo [VARCHAR]
+    - * areaDeTrabajo [VARCHAR]
+
+    OPERARIO
+        - #* run [PK, FK -> EMPLEADO]
+        - * tipoDeLicencia [VARCHAR]
+            (A2, A3, A4, A5)
+        - * numeroDeLicencia [VARCHAR]
+        - * fechaEmisionDocumentoLicencia [DATE]
+        - * fechaVencimientoDocumentoLicencia [DATE]
+
+    SUPERVISORDETERRENO
+        - #* run [PK, FK -> EMPLEADO]
+
+
+CLIENTE
+    - #* idCliente [INTEGER]
+
+    INDEPENDIENTE
+        - #* idCliente [PK, FK -> CLIENTE]
+        - #* run [VARCHAR] [UK]
+        - * primerNombre [VARCHAR]
+        - o segundoNombre [VARCHAR]
+        - * apellidoPaterno [VARCHAR]
+        - * apellidoMaterno [VARCHAR]
+        - * direccion [VARCHAR]
+        - * comuna [VARCHAR]
+        - * region [VARCHAR]
+
+    COOPERATIVAAGRICOLA
+        - #* idCliente [PK, FK -> CLIENTE]
+        - #* rut [VARCHAR] [UK]
+        - * razonSocial [VARCHAR]
+        - * direccion [VARCHAR]
+        - * comuna [VARCHAR]
+        - * region [VARCHAR]
+
+
+TELEFONO
+    - #* idTelefono [INTEGER]
+    - * numero [VARCHAR]
+    - * tipo [VARCHAR]
+
+
+AUTORIZACION
+    - #* idAutorizacion [INTEGER]
+    - * fechaInicio [DATE]
+    - * fechaTermino [DATE]
+    - * runOperario [FK -> OPERARIO]
+    - * idCooperativa [FK -> COOPERATIVAAGRICOLA]
+
+
+ARRIENDO
+    - #* idArriendo [INTEGER]
+    - * fechaHoraInicioDelArriendo [DATE]
+    - * fechaHoraTerminoDelArriendo [DATE]
+    - * estadoTecnicoInicialHorometro [NUMERIC]
+    - * estadoTecnicoInicialCombustible [NUMERIC]
+    - o estadoTecnicoFinalHorometro [NUMERIC]
+    - o estadoTecnicoFinalCombustible [NUMERIC]
+    - o costoArriendo [DECIMAL] [DERIVADO]
+    - * tipoFacturacion [VARCHAR]
+        (CLIENTE, COOPERATIVA)
+    - * idCliente [FK -> CLIENTE]
+    - * idMaquinaria [FK -> MAQUINARIA]
+    - * runSupervisor [FK -> SUPERVISORDETERRENO]
+    - o runOperario [FK -> OPERARIO]
+    - o idCooperativaFacturacion [FK -> COOPERATIVAAGRICOLA]
+
+
+ESTADOARRIENDO
+    - #* idEstadoArriendo [INTEGER]
+    - * tipoDeEstado [VARCHAR]
+        (EN_CREACION, CONFIRMADO, EN_TERRENO, FINALIZADO, CANCELADO)
+    - * fechaInicio [DATE]
+    - o fechaTermino [DATE]
+    - * idArriendo [FK -> ARRIENDO]
+
+
+COMPAÑIAASEGURADORA
+    - #* idCompaniaAseguradora [INTEGER]
+    - * razonSocial [VARCHAR]
+    - * rut [VARCHAR] [UK]
+
+
+SEGUROAGRICOLA
+    - #* idSeguro [INTEGER]
+    - * nombre [VARCHAR]
+    - o descripcion [VARCHAR]
+    - * idCompaniaAseguradora [FK -> COMPAÑIAASEGURADORA]
+
+
+ARRIENDOSEGURO
+    - #* idArriendo [PK, FK -> ARRIENDO]
+    - #* idSeguro [PK, FK -> SEGUROAGRICOLA]
+
+
+PROVEEDOREXTERNOKIT
+    - #* idProveedor [INTEGER]
+    - * razonSocial [VARCHAR]
+    - * rut [VARCHAR] [UK]
+    - * direccion [VARCHAR]
+    - * comuna [VARCHAR]
+    - * region [VARCHAR]
+
+
+ELEMENTOKIT
+    - #* idElemento [INTEGER]
+    - * nombre [VARCHAR]
+    - * tipo [VARCHAR]
+        (COMBUSTIBLE, LUBRICANTE, HERRAMIENTA)
+    - o descripcion [VARCHAR]
+    - * idProveedor [FK -> PROVEEDOREXTERNOKIT]
+
+
+DETALLEKITARRIENDO
+    - #* idArriendo [PK, FK -> ARRIENDO]
+    - #* idElemento [PK, FK -> ELEMENTOKIT]
+    - * cantidad [NUMERIC]
+    
+_____________________    
+    
+RELACIONES
+    
+[EMPRESA (administra) MAQUINARIA] 1:N
+
+
+[MAQUINARIA (se especializa en) MOTORIZADA] 1:0..1
+[MAQUINARIA (se especializa en) MANUAL] 1:0..1
+
+[MAQUINARIA (pertenece a) MOTORIZADA] 0..1:1
+[MAQUINARIA (pertenece a) MANUAL] 0..1:1
+
+[EMPLEADO (se especializa en) OPERARIO] 1:0..1
+[EMPLEADO (se especializa en) SUPERVISORDETERRENO] 1:0..1
+
+
+[CLIENTE (se especializa en) INDEPENDIENTE] 1:0..1
+[CLIENTE (se especializa en) COOPERATIVAAGRICOLA] 1:0..1
+
+
+[COOPERATIVAAGRICOLA (realiza) AUTORIZACION] 1:N
+[OPERARIO (recibe) AUTORIZACION] 1:N
+
+[CLIENTE (realiza) ARRIENDO] 1:N
+
+[MAQUINARIA (es arrendada mediante) ARRIENDO] 1:N
+
+[SUPERVISORDETERRENO (supervisa) ARRIENDO] 1:N
+
+[OPERARIO (realiza en nombre de) ARRIENDO] 0..1:N
+
+[COOPERATIVAAGRICOLA (recibe facturación de) ARRIENDO] 0..1:N
+
+
+[ARRIENDO (tiene) ESTADOARRIENDO] 1:N
+
+
+[COMPAÑIAASEGURADORA (ofrece) SEGUROAGRICOLA] 1:N
+
+[ARRIENDO (contrata) SEGUROAGRICOLA] N:M
+
+[ARRIENDO (contiene) ARRIENDOSEGURO] 1:N
+[SEGUROAGRICOLA (es contratado mediante) ARRIENDOSEGURO] 1:N
+
+
+[PROVEEDOREXTERNOKIT (provee) ELEMENTOKIT] 1:N
+
+[ARRIENDO (incluye) ELEMENTOKIT] N:M
+
+[ARRIENDO (contiene) DETALLEKITARRIENDO] 1:N
+[ELEMENTOKIT (aparece en) DETALLEKITARRIENDO] 1:N
+
+
+[INDEPENDIENTE (tiene) TELEFONO] 1:N
+[COOPERATIVAAGRICOLA (tiene) TELEFONO] 1:N
+[EMPLEADO (tiene) TELEFONO] 1:N
+[PROVEEDOREXTERNOKIT (tiene) TELEFONO] 1:N

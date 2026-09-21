@@ -1,0 +1,6 @@
+req de negocio
+req de usuario
+req funcional no funcional
+
+aspecto
+.> con quienes interactua. turista, admin general, agencias de turismo, admin servicios, restaurant

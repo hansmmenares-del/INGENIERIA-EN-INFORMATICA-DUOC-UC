@@ -1,0 +1,43 @@
+SOLICITUD
+	id_solicitud
+	tipo_de_solicitud
+	
+AFILIACION
+ANTECEDENTES_AFILIADO
+CARGAS_FAMILIARES
+
+PERSONA_ASEGURADO
+	apellido_paterno
+	apellido_materno
+	nombres
+	run
+	fecha_de_nacimiento
+	sexo
+	nacionalidad
+
+DOMICILIO
+	calle
+	num
+	comuna
+	poblacion_villa
+	dpto
+	ciudad
+	region
+	
+TIPO_DE_PROPIEDAD
+	propiedad_pagada
+	propiedad_con_deuda
+	propiedad_arrendada
+	allegado
+	otros
+CONTACTO
+	TELEFONOS
+		telefono
+	EMAILS
+		email
+AUTORIZACION_ENVIO_DE_INFO
+
+TIPO_DE_ASEGURADO
+	
+
+

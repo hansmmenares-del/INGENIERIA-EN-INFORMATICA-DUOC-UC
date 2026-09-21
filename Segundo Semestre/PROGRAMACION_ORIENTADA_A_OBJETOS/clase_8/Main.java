@@ -1,10 +1,17 @@
+import javax.swing.JFrame;
+
 public class Main {
     public static void main(String[] args) {
+
+        JFrame frame = new JFrame("JUEGO");
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.pack();
+        frame.setLocationRelativeTo(null);
+        frame.setVisible(true);
 
         // CREACIÓN DE PERSONAJES
 
         Mounstro mounstro_1 = new Mounstro(
-
             "Gorgath",
             10,
             250,
